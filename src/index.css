@@ -6,5 +6,12 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: white;
+  background-color: #fff;
+  color: #202124;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
 }

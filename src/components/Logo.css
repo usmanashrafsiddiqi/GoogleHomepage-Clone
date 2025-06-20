@@ -1,0 +1,38 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  
+  .logo img {
+    display: block;
+    width: 100%;
+    max-width: 272px;
+    height: auto;
+  }
+  
+  /* Tablets */
+  @media (max-width: 768px) {
+    .logo img {
+      max-width: 200px;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 480px) {
+    .logo img {
+      max-width: 160px;
+    }
+  }
+  
+  /* Very Small Phones */
+  @media (max-width: 360px) {
+    .logo img {
+      max-width: 140px;
+    }
+  }
+  

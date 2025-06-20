@@ -1,10 +1,11 @@
 import React from 'react';
+import './Logo.css';
 
 const Logo = () => {
   return (
     <div className="logo">
       <img
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        src="/assets/google.png" // 🔥 this path works from the `public` folder
         alt="Google"
       />
     </div>
